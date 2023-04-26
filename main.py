@@ -16,7 +16,7 @@ while True:
         fak = 1
         number = int(number)
         for i in range(1, number + 1):
-            fak = i * fak
+            fak *= i
         print(fak)
 
 #4! = 4*3*2*1
